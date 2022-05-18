@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { Doughnut1 } from './Doughnut';
+import { StackedChart } from './StackedChart';
+import WordCloud1 from './WordCloud';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      Doughnut
+      <Doughnut1/>
+      {/* <StackedChart/> */}
+      <WordCloud1/>
     </div>
   );
 }
